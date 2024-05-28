@@ -25,7 +25,7 @@ spec:
         run: hello-dotnet
     spec:
       containers:
-      - image: sugendh/dotnetcorebmb:latest
+      - image: eeshan7/dotnetcorebmb:latest
         imagePullPolicy: Always
         name: hello-dotnet
         ports:
